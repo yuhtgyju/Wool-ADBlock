@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>WoolBlock Control Panel</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    img {
+      width: 64px;
+      height: 64px;
+    }
+    .toggle {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🐑 Wool ADBlock</h1>
+  <img src="icons/wool-icon1.png" alt="Wool Icon">
+  <div class="toggle">
+    <label>
+      <input type="checkbox" id="enableToggle">
+      Enable WoolBlock
+    </label>
+  </div>
+  <div class="toggle2">
+    <label>
+        <input type="checkbox" id="enableSoftMode">
+        Enable SoftMode
+    </label>
+  </div>
+  <p id="statusText"></p>
+  <p id="statusText2"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
